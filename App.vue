@@ -1,18 +1,14 @@
-<script>
-export default {
-	onLaunch: function () {
-		console.log('App Launch')
-	},
-	onShow: function () {
-		console.log('App Show')
-	},
-	onHide: function () {
-		console.log('App Hide')
-	}
-}
-</script>
+<script setup></script>
 
-<style lang="scss">
-@import 'tailwindcss/base';
-@import 'tailwindcss/utilities';
+<template></template>
+
+<style>
+	@import 'tailwindcss/base';
+	@import 'tailwindcss/utilities';
+	@import 'tailwindcss/components';
+	@import 'common/iconfont.css';
+
+	body {
+		background-color: #f8f8f8;
+	}
 </style>
